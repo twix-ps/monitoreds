@@ -1,0 +1,20 @@
+name: monitoreds
+version: '${version}'
+main: me.twix.monitoreds.Monitoreds
+api-version: 1.18
+commands:
+  bal:
+    description: Checks your current balance
+    permission: monitor.balance.bal
+  addbal:
+    description: gives you money yum yum
+    permission: monitor.balance.addbal
+  delbal:
+    description: takes away your precious money
+    permission: monitor.balance.delbal
+  withdraw:
+    description: turns your precious money into precious gold
+    permission: monitor.balance.withdraw
+  sell:
+    description: sells items in your hand
+    permission: monitor.balance.sell
