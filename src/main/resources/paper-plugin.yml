@@ -1,0 +1,4 @@
+name: monitoreds
+version: '${version}'
+main: me.twix.monitoreds.Monitoreds
+api-version: 1.18
